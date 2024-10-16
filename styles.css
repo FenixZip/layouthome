@@ -11,7 +11,6 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
 body {
@@ -28,87 +27,187 @@ body {
 }
 
 .header {
-    padding-top: 40px;
     display: flex;
-    justify-content: space-between;
+    flex: content;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
 }
 
 .header__menu {
     display: flex;
+    flex: content;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    gap: 8%;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
-    color: #000;
-    width: 533px;
-}
-
-.link__menu {
-    color: #000000;
-    line-height: 17px;
-    font-size: 16px;
+    align-content: center;
+    justify-content: flex-end;
 }
 
 .top_content {
-    margin-top: 84px;
-    margin-bottom: 162px;
     display: flex;
-    justify-content: space-between;
+    flex: content;
+    flex-direction: row;
+    align-items: center;
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 1%;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
 }
 
 .top__text {
-    padding-top: 59px;
+    width: 522px;
+    height: 374px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .title {
+    color: #000;
+    font-family: Gilroy-Bold;
     font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
-    margin-bottom: 17px;
-    width: 522px;
+    margin: 1%;
+    padding: 1%;
 }
 
 .text {
-    font-size: 20px;
-    line-height: normal;
     color: #888;
-    width: 466px;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1%;
+    padding: 1%;
 }
 
 .top__buttons {
-    margin-top: 37px;
     display: flex;
-    gap: 72px;
+    flex: content;
+    flex-direction: row;
+    gap: 20%;
     align-items: center;
+    margin: 1%;
+    padding: 1%;
 }
 
 .image {
-    max-width: 100%;
-    display: block;
+    width: auto;
+    height: auto;
 }
 
 .buttons {
-    border-radius: 50px;
+    color: #FFFFFF;
     background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    font-size: 15px;
-    padding-top: 15px;
-    padding: 15px 36px 16px 35px;
-    color: #FFF;
-    border: none;
+    border-radius: 30px;
+    border-width: 0;
+    width: 120px;
+    height: 40px;
 }
 
 .link__topbutton {
-    font-size: 15px;
-    line-height: normal;
     color: #AAA;
+    font-family: Gilroy-Bold;
+    white-space: nowrap;
+    display: flex;
+    flex: content;
+    flex-direction: row;
+    gap: 15px;
+    align-items: сenter;
 }
 
 .footer {
-    padding-top: 97px;
-    padding-bottom: 96px;
-    display: flex;
-    justify-content: space-between;
+    width: auto;
+    height: auto;
 }
+
+.top_container {
+    width: 1319px;
+    height: 928px;
+    background: #FFFFFF;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.logo {
+    display: flex;
+    flex: content;
+    gap: 1%;
+    flex-direction: row;
+    align-items: center;
+    width: 20%;
+    align-content: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+.logo_image {
+    height: auto;
+    width: 30%;
+}
+
+.link__menu_1 {
+    color: #F25822;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_2 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_3 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_4 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_5 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_6 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+.link__menu_7 {
+    color: #000;
+    font-family: Gilroy-Medium, sans-serif;
+}
+
+
+
 
 
 
